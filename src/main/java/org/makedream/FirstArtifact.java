@@ -1,7 +1,7 @@
 package org.makedream;
 
 public class FirstArtifact {
-    public static void main(String[] args) {
-        System.out.println("this is the first artifact!!");
+    public String say(String content) {
+        return String.format("你叫我说，我就说：%s", content);
     }
 }
