@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "file:./")
+        pom.version = '0.0.1-SNAPSHOT'
+        pom.artifactId = 'FirstArtifact'
+        pom.groupId = 'org.makedream'
+    }
+}
