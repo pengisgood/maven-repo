@@ -4,7 +4,7 @@
 
 ### Usage:
 
-1. add these line to your 'build.gradle'
+1. add these line to your `build.gradle`
 
 ```
 repositories {
